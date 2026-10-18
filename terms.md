@@ -70,6 +70,8 @@ you provide. You are responsible for what you upload and for keeping your Roblox
 ------------------------------
 Kiln works with Affinity, which you must licence separately. Kiln is not affiliated with, endorsed by or
 sponsored by Canva or Serif. &quot;Roblox&quot;, &quot;Affinity&quot; and other names are trademarks of their owners.
+The Roblox Studio class icons shown in Kiln belong to Roblox Corporation and are not licensed to you under
+these terms. We do not own them and claim no ownership of them; all rights in them remain with Roblox.
 
 
 6. Privacy
