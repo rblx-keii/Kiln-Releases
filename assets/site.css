@@ -122,12 +122,6 @@ img { display: block; }
 .c-img { color: var(--success); }
 
 .fire { position: relative; }
-.fire::before {   /* the kiln's heat: a band between the two panes */
-  content: ""; position: absolute; inset: 18% 10px;
-  border-radius: 999px;
-  background: radial-gradient(closest-side, color-mix(in srgb, var(--ember) 55%, transparent), transparent);
-  filter: blur(6px);
-}
 .fire span {
   position: absolute; top: 50%; left: 14px; right: 14px; height: 2px;
   background: var(--ember);
@@ -139,10 +133,8 @@ img { display: block; }
 
 @media (prefers-reduced-motion: no-preference) {
   .pane-studio .rows li { animation: fired 0.5s cubic-bezier(.2, .8, .2, 1) both; animation-delay: calc(0.5s + var(--d) * 0.11s); }
-  .fire::before { animation: glow 2.8s ease-in-out infinite alternate; }
 }
 @keyframes fired { from { opacity: 0; transform: translateX(-14px); filter: blur(2px); } }
-@keyframes glow { from { opacity: 0.55; } to { opacity: 1; } }
 
 h2 { font: 700 clamp(28px, 3.6vw, 40px)/1.1 var(--display); letter-spacing: -0.02em; margin: 0 0 28px; }
 .stages { padding-bottom: 88px; }
@@ -193,7 +185,6 @@ h2 { font: 700 clamp(28px, 3.6vw, 40px)/1.1 var(--display); letter-spacing: -0.0
   .fire { height: 56px; }
   .fire span { top: 10px; bottom: 10px; left: 50%; right: auto; width: 2px; height: auto; }
   .fire span::after { right: auto; top: auto; bottom: -2px; left: -5px; border: 6px solid transparent; border-top: 9px solid var(--ember); border-bottom: 0; }
-  .fire::before { inset: 4px 30%; }
   .stage-grid { grid-template-columns: 1fr; gap: 28px; }
 }
 @media (max-width: 520px) {
