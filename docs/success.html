@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>You're in · Kiln</title>
+<!-- Polar's Success URL. Self-contained on purpose: no external scripts, fonts or API calls, nothing secret.
+     Every "TODO" below is for the owner to fill in before launch (search this file for TODO). -->
+<style>
+  :root {
+    --bg: #1c1b27; --panel: #272635; --raised: #32313f; --border: #403f4f;
+    --text: #ece5f0; --muted: #a9a3b3; --ember: #f39237; --ember-hot: #f7a458; --on-ember: #272635;
+    --info: #35a7ff; --success: #3fcf8e; --warning: #ffd166;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 400 17px/1.6 Inter, "Segoe UI", system-ui, -apple-system, sans-serif;
+  }
+  a { color: var(--ember); text-underline-offset: 3px; }
+  a:hover { color: var(--ember-hot); }
+  :focus-visible { outline: 2px solid var(--info); outline-offset: 3px; border-radius: 4px; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 20px 64px; }
+  .brand { color: var(--muted); font-weight: 700; letter-spacing: 0.02em; text-decoration: none; }
+  h1 { font-size: clamp(2rem, 6vw, 2.9rem); line-height: 1.1; letter-spacing: -0.02em; margin: 28px 0 12px; }
+  h1 span { color: var(--ember); }
+  h2 { font-size: 1.25rem; margin: 0 0 10px; }
+  .lede { color: var(--muted); font-size: 1.1rem; margin: 0 0 8px; }
+  .order { color: var(--muted); font-size: 0.95rem; margin: 0 0 28px; }
+  .order code { color: var(--text); background: var(--panel); padding: 2px 8px; border-radius: 6px;
+                font: 500 0.9em ui-monospace, Consolas, monospace; word-break: break-all; }
+  section { background: var(--panel); border: 1px solid var(--border); border-radius: 14px;
+            padding: 22px 22px 18px; margin: 0 0 18px; }
+  section p { margin: 0 0 10px; }
+  .key { border-color: var(--ember); }
+  ol.steps { counter-reset: step; list-style: none; margin: 0; padding: 0; }
+  ol.steps li { counter-increment: step; position: relative; padding: 0 0 14px 46px; }
+  ol.steps li::before {
+    content: counter(step); position: absolute; left: 0; top: 0; width: 30px; height: 30px; border-radius: 50%;
+    background: var(--raised); color: var(--ember); font-weight: 700; display: grid; place-items: center;
+  }
+  ol.steps li strong { color: var(--text); }
+  .hint { color: var(--muted); font-size: 0.95rem; }
+  kbd { background: var(--raised); border: 1px solid var(--border); border-bottom-width: 2px; border-radius: 5px;
+        padding: 0 6px; font: 600 0.85em "Segoe UI", system-ui, sans-serif; }
+  ul { margin: 0 0 10px; padding-left: 20px; }
+  li { margin: 0 0 6px; }
+  .btn { display: inline-block; padding: 11px 18px; border-radius: 10px; font-weight: 600; text-decoration: none;
+         background: var(--ember); color: var(--on-ember); margin: 4px 0 6px; }
+  .btn:hover { background: var(--ember-hot); color: var(--on-ember); }
+  .todo { color: var(--warning); font-weight: 600; }
+  footer { color: var(--muted); font-size: 0.9rem; margin-top: 32px; text-align: center; }
+  @media (max-width: 480px) {
+    main { padding-top: 28px; }
+    section { padding: 18px 16px 12px; }
+    ol.steps li { padding-left: 40px; }
+  }
+</style>
+</head>
+<body>
+<main>
+  <a class="brand" href="../">KILN</a>
+  <h1>Thanks, <span>you're in.</span></h1>
+  <p class="lede">Your Kiln license is on its way. Here's how to get from this page to your first screen in Studio.</p>
+  <p class="order" id="order" hidden>Order reference: <code id="order-id"></code></p>
+
+  <section class="key" aria-labelledby="key-title">
+    <h2 id="key-title">Your license key</h2>
+    <p>Polar, our payment provider, emails your key to the address you used at checkout. It usually arrives within
+      a few minutes; check spam if it doesn't.</p>
+    <p>You can also see it any time in the
+      <!-- TODO(owner): your Polar customer portal, https://polar.sh/<org-slug>/portal -->
+      <a href="https://polar.sh/TODO-org-slug/portal">Polar customer portal</a>, where you can also manage your
+      subscription and download invoices.</p>
+  </section>
+
+  <section aria-labelledby="steps-title">
+    <h2 id="steps-title">Get started</h2>
+    <ol class="steps">
+      <!-- TODO(owner): confirm the download link (the latest release, or a direct zip link) -->
+      <li><strong>Download Kiln.</strong><br>
+        <a class="btn" href="https://github.com/rblx-keii/Kiln-Releases/releases/latest">Download for Windows</a></li>
+      <li><strong>Unzip it anywhere you can write to</strong>, for example <code>Documents\Kiln</code>. Don't run
+        it from inside the zip or from Program Files.</li>
+      <li><strong>Run Kiln.exe.</strong> <span class="hint">If Windows shows "Windows protected your PC", click
+        <kbd>More info</kbd> then <kbd>Run anyway</kbd>. This early version isn't code-signed yet.</span></li>
+      <li><strong>Activate:</strong> in Kiln, open <kbd>Settings</kbd> &gt; <kbd>License</kbd>, paste your key,
+        and click <kbd>Activate</kbd>.</li>
+      <li><strong>Follow the Setup checklist.</strong> It links Kiln to Affinity and Roblox Studio and ticks each
+        step off as it happens.</li>
+    </ol>
+  </section>
+
+  <section aria-labelledby="count-title">
+    <h2 id="count-title">How imports are counted</h2>
+    <ul>
+      <li><strong>One import is one unique screen</strong>: a GUI that opens on its own, like a Shop, an Inventory
+        or a Settings menu.</li>
+      <li><strong>Syncing is free.</strong> Re-importing a screen you've already imported never counts, however
+        much you change it.</li>
+      <li><strong>A new frame is a new import.</strong> Add a Rebirth screen next to your Shop and that's one new
+        import; the Shop stays a free sync.</li>
+      <li><strong>Grouping doesn't merge screens.</strong> Three screens in one group are three imports. A HUD made
+        of pieces pinned around the screen counts as one.</li>
+    </ul>
+    <p class="hint">Before anything counts, Kiln shows which screens it found and which are new, and you can leave
+      some out. The count resets every day at midnight.</p>
+  </section>
+
+  <section aria-labelledby="founding-title">
+    <h2 id="founding-title">Founding supporters</h2>
+    <p>If you joined as a Founding supporter, you get 50 new imports a day and early access to beta features as
+      they land: the Animate Timeline and the State Graph Editor. They switch on by themselves once your key is
+      active. Thank you for backing Kiln this early.</p>
+  </section>
+
+  <section aria-labelledby="refund-title">
+    <h2 id="refund-title">Refunds</h2>
+    <!-- TODO(owner): your refund wording -->
+    <p class="todo">TODO: refund policy.</p>
+  </section>
+
+  <section aria-labelledby="help-title">
+    <h2 id="help-title">Need help?</h2>
+    <ul>
+      <!-- TODO(owner): Discord invite and the issues link -->
+      <li>Ask in the <a href="#TODO-discord">Kiln Discord</a> <span class="todo">(TODO: invite link)</span>.</li>
+      <li>Report a bug on <a href="#TODO-issues">GitHub issues</a> <span class="todo">(TODO: link)</span>. In
+        Kiln, <kbd>Help</kbd> &gt; <kbd>Copy Diagnostics</kbd> gives us what we need, with your key taken out.</li>
+      <li>Or email <a href="mailto:official.keii@outlook.com">official.keii@outlook.com</a>.</li>
+    </ul>
+    <p class="hint">Key didn't arrive, or activation says it's in use on too many computers? The customer portal
+      above can resend it and free a computer.</p>
+  </section>
+
+  <footer>
+    <p>Kiln is independent and not affiliated with Canva, Affinity, Serif or Roblox.</p>
+    <p><a href="../privacy.html">Privacy</a> · <a href="../terms.html">Terms</a></p>
+  </footer>
+</main>
+<script>
+  // Show Polar's ?checkout_id= as an order reference only. Nothing is sent anywhere.
+  (function () {
+    var id = new URLSearchParams(location.search).get("checkout_id");
+    if (id && /^[A-Za-z0-9_-]{1,80}$/.test(id)) {
+      document.getElementById("order-id").textContent = id;
+      document.getElementById("order").hidden = false;
+    }
+  })();
+</script>
+</body>
+</html>
