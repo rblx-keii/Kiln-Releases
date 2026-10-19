@@ -31,9 +31,9 @@ We never receive any of this.
   as you, using your API key or sign-in token. Roblox handles that data under the
   [Roblox Privacy Policy](https://en.help.roblox.com/hc/en-us/articles/115004630823).
 - **Roblox, when you sign in.** "Sign in with Roblox" opens Roblox's own page in your browser. Kiln asks only for
-  the permissions it needs: your Roblox user ID (`openid`) and permission to read and upload your assets
-  (`asset:read`, `asset:write`). Kiln uses your user ID to set the owner of the images you publish. The tokens
-  stay on your computer.
+  the permissions it needs: your Roblox user ID (`openid`), your username (`profile`) and permission to read
+  and upload your assets (`asset:read`, `asset:write`). Kiln uses your user ID to set the owner of the images you
+  publish, and shows your username so you can see which account is signed in. The tokens stay on your computer.
 - **GitHub, to check for updates.** Kiln may download a small release file from this site
   (github.com/rblx-keii/Kiln-Releases) to see whether a new version exists. Like any web request, GitHub can see
   your IP address; the request contains no files, account details or settings. GitHub handles it under the
