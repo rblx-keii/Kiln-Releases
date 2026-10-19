@@ -5,7 +5,7 @@ permalink: /privacy.html
 
 # Kiln Privacy Policy
 
-Effective October 21, 2026
+Effective October 31, 2026
 
 This policy explains what Kiln does with information. "Kiln" means the Kiln desktop app, the Kiln Roblox Studio
 plugin, and the KilnAnimator runtime it installs. Kiln is made by Klyne Benedict Pascual, trading as rblx-keii

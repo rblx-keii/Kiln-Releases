@@ -1,0 +1,82 @@
+---
+title: Kiln
+body_class: home
+---
+<section class="hero">
+  <div class="hero-copy">
+    <h1>Draw it in Affinity.<br><span>Get it in Studio.</span></h1>
+    <p class="lede">Kiln turns your Affinity layers into native Roblox UI: real Frames, TextLabels and ImageButtons,
+      with UICorner, UIStroke and UIGradient where the design calls for them. Not a flat screenshot.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="https://github.com/rblx-keii/Kiln-Releases/releases/latest">Download for Windows</a>
+      <a class="btn" href="{{ '/start.html' | relative_url }}">Get started</a>
+    </div>
+    <p class="meta">Windows 10 and 11 · Affinity 3.3 · First release October 31, 2026</p>
+  </div>
+
+  <figure class="kiln" aria-label="An Affinity layer list on the left becomes a Roblox Studio Explorer tree on the right">
+    <div class="pane">
+      <div class="pane-head">Affinity · Layers</div>
+      <ul class="rows">
+        <li style="--d:0"><span class="kind">Artboard</span>Shop</li>
+        <li style="--d:1" class="in1"><span class="kind">Rectangle</span>Panel</li>
+        <li style="--d:2" class="in2"><span class="kind">Text</span>Title</li>
+        <li style="--d:3" class="in2"><span class="kind">Group</span>Buy button</li>
+        <li style="--d:4" class="in3"><span class="kind">Image</span>Coin</li>
+        <li style="--d:5" class="in3"><span class="kind">Text</span>Price</li>
+      </ul>
+    </div>
+    <div class="fire" aria-hidden="true"><span></span></div>
+    <div class="pane pane-studio">
+      <div class="pane-head">Studio · Explorer</div>
+      <ul class="rows">
+        <li style="--d:0"><code class="c-gui">ScreenGui</code>Shop</li>
+        <li style="--d:1" class="in1"><code class="c-frame">Frame</code>Panel <small>UICorner · UIStroke · UIGradient</small></li>
+        <li style="--d:2" class="in2"><code class="c-text">TextLabel</code>Title</li>
+        <li style="--d:3" class="in2"><code class="c-btn">ImageButton</code>BuyButton</li>
+        <li style="--d:4" class="in3"><code class="c-img">ImageLabel</code>Coin</li>
+        <li style="--d:5" class="in3"><code class="c-text">TextLabel</code>Price</li>
+      </ul>
+    </div>
+  </figure>
+</section>
+
+<section class="stages" aria-labelledby="stages-title">
+  <h2 id="stages-title">Where each part happens</h2>
+  <div class="stage-grid">
+    <div class="stage">
+      <h3>In Affinity</h3>
+      <p>You keep drawing as you always do. Affinity stays the source of truth for the design.</p>
+      <ul>
+        <li>Kiln links to Affinity's built-in MCP server by itself</li>
+        <li>Every edit from Kiln is one Affinity undo step</li>
+      </ul>
+    </div>
+    <div class="stage">
+      <h3>In Kiln</h3>
+      <p>Your layers show up as the Roblox tree they will become, live, next to a canvas of the screen.</p>
+      <ul>
+        <li>Set classes, names and Roblox-only properties without typing tags</li>
+        <li>Problems like untagged or oversized images are listed before you export</li>
+        <li>Hover, Press, Entry and Exit animations play in Live mode</li>
+      </ul>
+    </div>
+    <div class="stage">
+      <h3>In Studio</h3>
+      <p>Export, and the Kiln plugin builds the UI into StarterGui in one undo step.</p>
+      <ul>
+        <li>Exporting again updates the build in place</li>
+        <li>Animations play in your game with no code, through KilnAnimator</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="signin" aria-labelledby="signin-title">
+  <h2 id="signin-title">Sign in with Roblox</h2>
+  <p>Your UI needs its images on Roblox. When you sign in, Kiln uploads the images you export to your own account
+    as Image assets and puts their ids in the build. An image you've already uploaded is never uploaded again.</p>
+  <p>Kiln asks Roblox for your user id and permission to read and create your assets, nothing else. The sign-in
+    stays in Windows Credential Manager on your computer. Sign out in Kiln, or revoke Kiln in your Roblox account
+    settings, at any time. <a href="{{ '/privacy.html' | relative_url }}">Privacy Policy</a></p>
+</section>

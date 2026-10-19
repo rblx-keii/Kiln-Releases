@@ -7,7 +7,7 @@ permalink: /terms.html
 KILN END USER LICENCE AGREEMENT AND TERMS OF USE
 ================================================
 
-Version 1.0, October 21, 2026
+Version 1.0, October 31, 2026
 
 These terms are an agreement between you and Klyne Benedict Pascual, trading as &quot;rblx-keii&quot; (&quot;we&quot;, &quot;us&quot;),
 for Kiln: the Kiln desktop application, the Kiln Roblox Studio plugin, the KilnAnimator runtime and Motion
