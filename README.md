@@ -26,12 +26,13 @@
 |---|---|---|
 | Free | 10 | Free, no key needed |
 | Pro | 25 | $15/mo, $100/yr, or $250 lifetime |
-| Founding (early supporters) | 50, plus beta features | Pro prices, 50% off your first 3 months |
+| Founding (early supporters) | 50, plus beta features | $175 lifetime (30% off), or monthly/yearly with 50% off payments 2 to 4 |
 
-<!-- TODO(owner): the Founding checkout URL -->
-Founding is for early supporters: [join as a Founding supporter](https://polar.sh/TODO-founding-checkout-url).
-The discount covers your first 3 monthly payments ($7.50 each), or your whole first payment on yearly ($50) or
-lifetime ($125). Its beta features are the Animate Timeline and the State Graph Editor as they land.
+<!-- TODO(owner): the Founding checkout URLs (monthly/yearly link, and the lifetime link) -->
+Founding is for early supporters: [join as a Founding supporter](https://polar.sh/TODO-founding-checkout-url) or
+[get Founding Lifetime](https://polar.sh/TODO-founding-lifetime-checkout-url). Lifetime is $175 instead of $250.
+Monthly and yearly start at the normal price, then your next 3 payments are half price ($7.50 a month, or $50 a
+year). Its beta features are the Animate Timeline and the State Graph Editor as they land.
 
 **What counts as an import?** One import is one unique screen: a GUI that opens on its own, like a Shop, an
 Inventory or a Settings menu. Syncing a screen you've already imported is always free, however much you change it.
