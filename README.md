@@ -23,7 +23,7 @@
 
 | Plan | New imports per day | Price |
 |---|---|---|
-| Free | 10 | Free, no key needed |
+| Free | 10 | Free, no key needed (from the public release; Early Access is Pro and Founding only) |
 | Pro | 25 | $15/mo, $100/yr, or $250 lifetime |
 | Founding (early supporters) | 50, plus beta features | $175 lifetime (30% off), or monthly/yearly with 50% off payments 2 to 4 |
 
@@ -40,7 +40,9 @@ what it found before anything counts.
 
 ## Install
 
-1. Download the latest `Kiln-<version>.zip` from [Releases](https://github.com/rblx-keii/Kiln-Releases/releases/latest).
+1. Download the latest `Kiln-<version>-win64.zip` from your [Polar customer portal](https://polar.sh/kiln/portal)
+   (Downloads). During Early Access, that's the only place to get it; Kiln tells you when a new version is in
+   the portal and installs it from the zip you download.
 2. Unzip it anywhere you can write to, for example `Documents\Kiln`. It's portable: no installer.
 3. Run `Kiln.exe`. If Windows says "Windows protected your PC", click **More info**, then **Run anyway**. This
    early version isn't code-signed yet.
