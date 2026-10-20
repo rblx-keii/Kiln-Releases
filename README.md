@@ -96,7 +96,7 @@ In Kiln, **Help > Copy Diagnostics** copies what a bug report needs, with your k
 
 [Privacy](https://rblx-keii.github.io/Kiln-Releases/privacy.html) ·
 [Terms](https://rblx-keii.github.io/Kiln-Releases/terms.html) ·
-<!-- TODO(owner): link THIRD_PARTY_NOTICES once it's published -->
-Third-party notices: TODO (THIRD_PARTY_NOTICES)
+[Third-party notices](https://github.com/rblx-keii/Kiln-Releases/releases/latest/download/THIRD_PARTY_NOTICES.txt)
+(also inside the download, as `THIRD_PARTY_NOTICES.txt`)
 
 Kiln is independent and not affiliated with Canva, Affinity, Serif or Roblox.
