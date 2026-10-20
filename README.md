@@ -19,8 +19,7 @@
 
 ## Early Access
 
-<!-- TODO(owner): the public Polar checkout URL -->
-<p><a href="https://polar.sh/TODO-checkout-url"><b>➜ Request Early Access, $15/mo</b></a></p>
+<p><a href="https://buy.polar.sh/polar_cl_xmEsPg8Z4XKztGreVjECOnLjBzu4Pp15XDygn0kmPKG"><b>➜ Request Early Access, $15/mo</b></a></p>
 
 | Plan | New imports per day | Price |
 |---|---|---|
@@ -28,9 +27,8 @@
 | Pro | 25 | $15/mo, $100/yr, or $250 lifetime |
 | Founding (early supporters) | 50, plus beta features | $175 lifetime (30% off), or monthly/yearly with 50% off payments 2 to 4 |
 
-<!-- TODO(owner): the Founding checkout URLs (monthly/yearly link, and the lifetime link) -->
-Founding is for early supporters: [join as a Founding supporter](https://polar.sh/TODO-founding-checkout-url) or
-[get Founding Lifetime](https://polar.sh/TODO-founding-lifetime-checkout-url). Lifetime is $175 instead of $250.
+Founding is for early supporters: [join as a Founding supporter](https://buy.polar.sh/polar_cl_mj2kzvw10Bf85sYCVGggyJym3HF1BHop4tEAV4JQEMf) or
+[get Founding Lifetime](https://buy.polar.sh/polar_cl_Gv92bMEOTmFgs7oD1HjRvvpE0EH3ixT2SIuRM20wpAW). Lifetime is $175 instead of $250.
 Monthly and yearly start at the normal price, then your next 3 payments are half price ($7.50 a month, or $50 a
 year). Its beta features are the Animate Timeline and the State Graph Editor as they land.
 
