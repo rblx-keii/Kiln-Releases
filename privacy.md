@@ -50,6 +50,13 @@ We never receive any of this.
 - **Affinity and Roblox Studio on your computer.** Kiln talks to Affinity and to Roblox Studio over connections
   on your own computer (localhost). Nothing leaves your computer this way.
 
+## This website
+
+This site is hosted on GitHub Pages, which can see your IP address like any website host. It has no cookies,
+analytics or tracking. Its fonts load from Google Fonts, so your browser also contacts Google, which can see your
+IP address under the [Google Privacy Policy](https://policies.google.com/privacy). Buttons that say Get Pro or
+Founding take you to Polar's checkout.
+
 ## Diagnostics you choose to send
 
 **Help > Copy Diagnostics** puts a report on your clipboard: Kiln's version, Windows version, folder paths,
@@ -66,11 +73,39 @@ paste it into an email or bug report yourself, and we use it only to fix the pro
 
 Kiln is a tool for creators and is not directed at children. Use of Roblox is subject to Roblox's own age rules.
 
+## Why we use it
+
+The only personal information we handle ourselves is what Polar shows us about your purchase and what you send
+us. We use it to:
+
+- **give you what you bought:** your license key, downloads and support (needed to perform our contract with
+  you);
+- **handle refunds, taxes and accounting** (needed to meet our legal obligations);
+- **answer you when you contact us** (our legitimate interest in supporting Kiln, and yours in getting help).
+
+We don't use it for marketing, profiling or training AI, and we don't sell it.
+
+## How long we keep it
+
+- **Purchases** (your email address, what you bought, payments and refunds): for as long as you have a Kiln
+  license, then as long as tax and accounting law requires us to keep records of sales.
+- **Messages and bug reports:** only as long as needed to answer them and fix the problem.
+- **License checks:** Polar keeps your key's activations (the computer label above) while the key is active. You
+  can free a computer in the customer portal at any time.
+
+## Where it's processed
+
+Polar, GitHub, Google and Roblox may process data outside your country, including in the United States. Each
+handles it under its own privacy policy, linked above, with the safeguards the law requires for international
+transfers.
+
 ## Your rights
 
-If you contact us (for example with a bug report), we keep your message only as long as needed to answer it.
-You may ask us to access, correct or delete it, as provided by the Philippine Data Privacy Act of 2012
-(Republic Act No. 10173) and other laws that apply to you.
+You may ask us to access, correct or delete the personal information we hold about you, to export it, or to stop
+using it, as provided by the Philippine Data Privacy Act of 2012 (Republic Act No. 10173), the GDPR and UK GDPR
+where they apply, and other laws that apply to you. Email us and we'll answer within 30 days. We may need to keep
+purchase records the law requires, even if you ask us to delete them. If you're in the EU, the EEA or the UK, you
+can also complain to your local data protection authority.
 
 ## Changes
 
