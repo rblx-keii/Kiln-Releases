@@ -26,11 +26,12 @@
 |---|---|---|
 | Free | 10 | Free, no key needed |
 | Pro | 25 | $15/mo, $100/yr, or $250 lifetime |
-| Founding (early supporters) | 50, plus beta features | 50% off Pro |
+| Founding (early supporters) | 50, plus beta features | Pro prices, 50% off your first 3 months |
 
 <!-- TODO(owner): the Founding checkout URL -->
 Founding is for early supporters: [join as a Founding supporter](https://polar.sh/TODO-founding-checkout-url).
-Its beta features are the Animate Timeline and the State Graph Editor as they land.
+The discount covers your first 3 monthly payments ($7.50 each), or your whole first payment on yearly ($50) or
+lifetime ($125). Its beta features are the Animate Timeline and the State Graph Editor as they land.
 
 **What counts as an import?** One import is one unique screen: a GUI that opens on its own, like a Shop, an
 Inventory or a Settings menu. Syncing a screen you've already imported is always free, however much you change it.
@@ -51,7 +52,8 @@ More detail: [Get started](https://rblx-keii.github.io/Kiln-Releases/start.html)
 ## Activate
 
 After you buy, Polar emails you a license key. In Kiln, open **Settings > License**, paste the key and click
-**Activate**. Without a key Kiln runs on the Free plan. The [after-checkout page](https://rblx-keii.github.io/Kiln-Releases/docs/success.html)
+**Activate**. A key works on one computer at a time: to move it, click **Deactivate** on the old computer first
+(or free it in the customer portal). Without a key Kiln runs on the Free plan. The [after-checkout page](https://rblx-keii.github.io/Kiln-Releases/docs/success.html)
 walks through it step by step.
 
 ## Requirements
