@@ -22,6 +22,8 @@ tracking or ads. We don't sell or share personal information.
 - **Your designs and exports:** your Affinity documents and `Desktop\Kiln`.
 - **Your Roblox credentials:** an Open Cloud API key you enter, or the tokens from "Sign in with Roblox", are
   stored in Windows Credential Manager on your computer.
+- **Your Kiln license key:** in Windows Credential Manager too. Your plan and how many new screens you've
+  imported today are kept in `%APPDATA%\Kiln`, never sent anywhere.
 
 We never receive any of this.
 
@@ -38,6 +40,13 @@ We never receive any of this.
   (github.com/rblx-keii/Kiln-Releases) to see whether a new version exists. Like any web request, GitHub can see
   your IP address; the request contains no files, account details or settings. GitHub handles it under the
   [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
+- **Polar, for purchases and license checks.** Polar (polar.sh) sells Kiln for us as the merchant of record: when
+  you buy, Polar collects your email address and payment details, and handles them under the
+  [Polar Privacy Policy](https://polar.sh/legal/privacy). We see your email address, what you bought and your
+  order history, so we can support you and handle refunds. When you activate your key, and from time to time
+  while Kiln runs, Kiln sends Polar your license key and a computer label, a one-way hash of your Windows
+  machine id that can't be turned back into it, so a key works on one computer at a time. Nothing about your
+  designs, exports or Roblox account is sent.
 - **Affinity and Roblox Studio on your computer.** Kiln talks to Affinity and to Roblox Studio over connections
   on your own computer (localhost). Nothing leaves your computer this way.
 

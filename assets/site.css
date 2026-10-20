@@ -197,3 +197,4 @@ h2 { font: 700 clamp(28px, 3.6vw, 40px)/1.1 var(--display); letter-spacing: -0.0
   .rows code { min-width: 0; }
   .kind { min-width: 0; }
 }
+.stages .lede { margin: 0 0 28px; }
