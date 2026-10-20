@@ -36,8 +36,8 @@ We never receive any of this.
   the permissions it needs: your Roblox user ID (`openid`), your username (`profile`) and permission to read
   and upload your assets (`asset:read`, `asset:write`). Kiln uses your user ID to set the owner of the images you
   publish, and shows your username so you can see which account is signed in. The tokens stay on your computer.
-- **GitHub, to check for updates.** Kiln may download a small release file from this site
-  (github.com/rblx-keii/Kiln-Releases) to see whether a new version exists. Like any web request, GitHub can see
+- **GitHub, to check for updates.** Kiln may download a small file from this site
+  (rblx-keii.github.io/Kiln-Releases) to see whether a new version exists. Like any web request, GitHub can see
   your IP address; the request contains no files, account details or settings. GitHub handles it under the
   [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement).
 - **Polar, for purchases and license checks.** Polar (polar.sh) sells Kiln for us as the merchant of record: when
