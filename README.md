@@ -78,14 +78,16 @@ documents.
 
 ## Refunds
 
-<!-- TODO(owner): refund wording -->
-TODO: refund policy.
+Full refund within 14 days of a payment, no questions asked: email official.keii@outlook.com with your order
+reference from Polar's receipt. The money goes back to the card you paid with, and the license key stops working
+once it's refunded. Monthly and yearly plans can be cancelled any time in the customer portal; Kiln keeps your
+plan until the end of the period you've paid for, then goes back to Free.
 
 ## Support
 
-<!-- TODO(owner): Discord invite and issues link -->
-- Discord: TODO
-- Bug reports: TODO (GitHub issues link)
+<!-- TODO(owner): the Discord invite, once the server exists -->
+- Discord: coming soon
+- Bug reports: [GitHub issues](https://github.com/rblx-keii/Kiln-Releases/issues)
 - Email: official.keii@outlook.com
 
 In Kiln, **Help > Copy Diagnostics** copies what a bug report needs, with your keys taken out.
