@@ -9,9 +9,9 @@ Kiln runs on Windows 10 and 11 and works with Affinity 3.3. You'll also need Rob
 
 ## Install
 
-1. **Download** the latest `Kiln-<version>-win64.zip` from your [Polar customer portal](https://polar.sh/kiln/portal),
-   under Downloads. During Early Access that's the only place to get it; [get Early Access]({{ '/#early-access' | relative_url }})
-   if you haven't yet.
+1. **Download** the latest `Kiln-<version>-win64.zip` from the [download page](https://kiln-download-production.official-keii.workers.dev/):
+   paste your license key and click Download. During Early Access you need a key to download;
+   [get Early Access]({{ '/#early-access' | relative_url }}) if you haven't yet.
 2. **Unzip** the whole Kiln folder somewhere you can write to, for example `Documents\Kiln`. Don't run it from
    inside the zip, and don't put it in Program Files or in `Desktop\Kiln` (that folder is for your exports).
 3. **Run Kiln.exe.** Windows may show "Windows protected your PC" because this first version isn't code-signed

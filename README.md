@@ -40,9 +40,9 @@ what it found before anything counts.
 
 ## Install
 
-1. Download the latest `Kiln-<version>-win64.zip` from your [Polar customer portal](https://polar.sh/kiln/portal)
-   (Downloads). During Early Access, that's the only place to get it; Kiln tells you when a new version is in
-   the portal and installs it from the zip you download.
+1. Download the latest `Kiln-<version>-win64.zip` from the [download page](https://kiln-download-production.official-keii.workers.dev/)
+   by pasting your license key. During Early Access you need a key to download; Kiln tells you when a new
+   version is out and installs it from the zip you download.
 2. Unzip it anywhere you can write to, for example `Documents\Kiln`. It's portable: no installer.
 3. Run `Kiln.exe`. If Windows says "Windows protected your PC", click **More info**, then **Run anyway**. This
    early version isn't code-signed yet.
