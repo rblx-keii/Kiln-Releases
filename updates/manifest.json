@@ -1,8 +1,8 @@
 {
-  "version": "0.1.0",
-  "file": "Kiln-0.1.0-win64.zip",
-  "size": 118347003,
-  "sha256": "1b4dbac62664e48d728f5b06c8806d989b62b8c0dc78dd5e73c63512ea7e1fb1",
-  "notes": "",
-  "published": "2026-10-20"
+  "version": "0.1.1",
+  "file": "Kiln-0.1.1-win64.zip",
+  "size": 118351123,
+  "sha256": "ac825da0e2ab846ae5ab9a4478c2d6cec929de49aa46e044dc449aaff898e999",
+  "notes": "Multiple strokes from the Appearance tab now build as native UIStrokes. Layers with several fills are baked to an image. The update link now opens the download page.\n",
+  "published": "2026-10-24"
 }
